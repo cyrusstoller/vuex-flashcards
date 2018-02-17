@@ -1,14 +1,410 @@
 [
   {
-    "question": "This is question 1",
-    "answer": "This is answer 1"
+    "answer": "• _",
+    "question": "A"
   },
   {
-    "question": "This is question 2",
-    "answer": "This is answer 2"
+    "answer": "A",
+    "question": "• _"
   },
   {
-    "question": "This is question 3",
-    "answer": "This is answer 3"
+    "answer": "_ • • •",
+    "question": "B"
+  },
+  {
+    "answer": "B",
+    "question": "_ • • •"
+  },
+  {
+    "answer": "_ • _ •",
+    "question": "C"
+  },
+  {
+    "answer": "C",
+    "question": "_ • _ •"
+  },
+  {
+    "answer": "_ • •",
+    "question": "D"
+  },
+  {
+    "answer": "D",
+    "question": "_ • •"
+  },
+  {
+    "answer": "•",
+    "question": "E"
+  },
+  {
+    "answer": "E",
+    "question": "•"
+  },
+  {
+    "answer": "• • _ •",
+    "question": "F"
+  },
+  {
+    "answer": "F",
+    "question": "• • _ •"
+  },
+  {
+    "answer": "_ _ •",
+    "question": "G"
+  },
+  {
+    "answer": "G",
+    "question": "_ _ •"
+  },
+  {
+    "answer": "• • • •",
+    "question": "H"
+  },
+  {
+    "answer": "H",
+    "question": "• • • •"
+  },
+  {
+    "answer": "• •",
+    "question": "I"
+  },
+  {
+    "answer": "I",
+    "question": "• •"
+  },
+  {
+    "answer": "• _ _ _",
+    "question": "J"
+  },
+  {
+    "answer": "J",
+    "question": "• _ _ _"
+  },
+  {
+    "answer": "_ • _",
+    "question": "K"
+  },
+  {
+    "answer": "K",
+    "question": "_ • _"
+  },
+  {
+    "answer": "• _ • •",
+    "question": "L"
+  },
+  {
+    "answer": "L",
+    "question": "• _ • •"
+  },
+  {
+    "answer": "_ _",
+    "question": "M"
+  },
+  {
+    "answer": "M",
+    "question": "_ _"
+  },
+  {
+    "answer": "_ •",
+    "question": "N"
+  },
+  {
+    "answer": "N",
+    "question": "_ •"
+  },
+  {
+    "answer": "_ _ _",
+    "question": "O"
+  },
+  {
+    "answer": "O",
+    "question": "_ _ _"
+  },
+  {
+    "answer": "• _ _ •",
+    "question": "P"
+  },
+  {
+    "answer": "P",
+    "question": "• _ _ •"
+  },
+  {
+    "answer": "_ _ • _",
+    "question": "Q"
+  },
+  {
+    "answer": "Q",
+    "question": "_ _ • _"
+  },
+  {
+    "answer": "_ • _",
+    "question": "R"
+  },
+  {
+    "answer": "R",
+    "question": "_ • _"
+  },
+  {
+    "answer": "• • •",
+    "question": "S"
+  },
+  {
+    "answer": "S",
+    "question": "• • •"
+  },
+  {
+    "answer": "_",
+    "question": "T"
+  },
+  {
+    "answer": "T",
+    "question": "_"
+  },
+  {
+    "answer": "• • _",
+    "question": "U"
+  },
+  {
+    "answer": "U",
+    "question": "• • _"
+  },
+  {
+    "answer": "• • • _",
+    "question": "V"
+  },
+  {
+    "answer": "V",
+    "question": "• • • _"
+  },
+  {
+    "answer": "• _ _",
+    "question": "W"
+  },
+  {
+    "answer": "W",
+    "question": "• _ _"
+  },
+  {
+    "answer": "_ • • _",
+    "question": "X"
+  },
+  {
+    "answer": "X",
+    "question": "_ • • _"
+  },
+  {
+    "answer": "_ • _ _",
+    "question": "Y"
+  },
+  {
+    "answer": "Y",
+    "question": "_ • _ _"
+  },
+  {
+    "answer": "_ _ • •",
+    "question": "Z"
+  },
+  {
+    "answer": "Z",
+    "question": "_ _ • •"
+  },
+  {
+    "answer": "• _ _ _ _",
+    "question": "1"
+  },
+  {
+    "answer": "1",
+    "question": "• _ _ _ _"
+  },
+  {
+    "answer": "• • _ _ _",
+    "question": "2"
+  },
+  {
+    "answer": "2",
+    "question": "• • _ _ _"
+  },
+  {
+    "answer": "• • • _ _",
+    "question": "3"
+  },
+  {
+    "answer": "3",
+    "question": "• • • _ _"
+  },
+  {
+    "answer": "• • • • _",
+    "question": "4"
+  },
+  {
+    "answer": "4",
+    "question": "• • • • _"
+  },
+  {
+    "answer": "• • • • •",
+    "question": "5"
+  },
+  {
+    "answer": "5",
+    "question": "• • • • •"
+  },
+  {
+    "answer": "_ • • • •",
+    "question": "6"
+  },
+  {
+    "answer": "6",
+    "question": "_ • • • •"
+  },
+  {
+    "answer": "_ _ • • •",
+    "question": "7"
+  },
+  {
+    "answer": "7",
+    "question": "_ _ • • •"
+  },
+  {
+    "answer": "_ _ _ • •",
+    "question": "8"
+  },
+  {
+    "answer": "8",
+    "question": "_ _ _ • •"
+  },
+  {
+    "answer": "_ _ _ _ •",
+    "question": "9"
+  },
+  {
+    "answer": "9",
+    "question": "_ _ _ _ •"
+  },
+  {
+    "answer": "_ _ _ _ _",
+    "question": "0"
+  },
+  {
+    "answer": "0",
+    "question": "_ _ _ _ _"
+  },
+  {
+    "answer": "_ _ • • _ _",
+    "question": "Comma"
+  },
+  {
+    "answer": "Comma",
+    "question": "_ _ • • _ _"
+  },
+  {
+    "answer": "• • _ _ • •",
+    "question": "Question Mark"
+  },
+  {
+    "answer": "Question Mark",
+    "question": "• • _ _ • •"
+  },
+  {
+    "answer": "_ _ _ • • •",
+    "question": "Colon or Division Sign"
+  },
+  {
+    "answer": "Colon or Division Sign",
+    "question": "_ _ _ • • •"
+  },
+  {
+    "answer": "_ • • • • _",
+    "question": "Dash"
+  },
+  {
+    "answer": "Dash",
+    "question": "_ • • • • _"
+  },
+  {
+    "answer": "• _ • • _ •",
+    "question": "Quotation Mark"
+  },
+  {
+    "answer": "Quotation Mark",
+    "question": "• _ • • _ •"
+  },
+  {
+    "answer": "_ • _ _ •",
+    "question": "Left Parenthesis"
+  },
+  {
+    "answer": "Left Parenthesis",
+    "question": "_ • _ _ •"
+  },
+  {
+    "answer": "_ • • • _",
+    "question": "Equal Sign ="
+  },
+  {
+    "answer": "Equal Sign =",
+    "question": "_ • • • _"
+  },
+  {
+    "answer": "• _ • _ • _",
+    "question": "Full Stop (Period)"
+  },
+  {
+    "answer": "Full Stop (Period)",
+    "question": "• _ • _ • _"
+  },
+  {
+    "answer": "_ • _ • _ •",
+    "question": "Semicolon"
+  },
+  {
+    "answer": "Semicolon",
+    "question": "_ • _ • _ •"
+  },
+  {
+    "answer": "_ • • _ •",
+    "question": "Slash or Fraction Bar"
+  },
+  {
+    "answer": "Slash or Fraction Bar",
+    "question": "_ • • _ •"
+  },
+  {
+    "answer": "_ • • • • _",
+    "question": "Apostrophe"
+  },
+  {
+    "answer": "Apostrophe",
+    "question": "_ • • • • _"
+  },
+  {
+    "answer": "• • _ _ • _",
+    "question": "Underline"
+  },
+  {
+    "answer": "Underline",
+    "question": "• • _ _ • _"
+  },
+  {
+    "answer": "_ • _ _ • _",
+    "question": "Right Parenthesis"
+  },
+  {
+    "answer": "Right Parenthesis",
+    "question": "_ • _ _ • _"
+  },
+  {
+    "answer": "• _ • _ •",
+    "question": "Addition Sign +"
+  },
+  {
+    "answer": "Addition Sign +",
+    "question": "• _ • _ •"
+  },
+  {
+    "answer": "• _ _ • _ •",
+    "question": "Commercial @ Sign"
+  },
+  {
+    "answer": "Commercial @ Sign",
+    "question": "• _ _ • _ •"
   }
 ]
