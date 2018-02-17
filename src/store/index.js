@@ -20,7 +20,7 @@ export default new Vuex.Store({
     },
     currentAnswer (state) {
       return state.currentQuestion.answer
-    }
+    },
   },
   mutations: {
     // The changes to the state that we'll be making
@@ -45,7 +45,7 @@ export default new Vuex.Store({
     },
     flipCard (state) {
       state.cardFlipped = !state.cardFlipped
-    }
+    },
   },
   actions: {
     init (context) {
@@ -60,8 +60,8 @@ export default new Vuex.Store({
       const question = context.state.currentQuestion
       context.commit('pushUnanswered', question)
       context.commit('setCurrentQuestion', randomQuestion(context))
-    }
-  }
+    },
+  },
 })
 
 function randomQuestion (context) {

@@ -18,7 +18,7 @@ export default {
   },
   data () {
     return {
-      score: 0
+      score: 0,
     }
   },
   computed: {
@@ -27,7 +27,7 @@ export default {
     },
     answer () {
       return this.$store.getters.currentAnswer // handled by vuex
-    }
+    },
   },
   methods: {
     correct () {
@@ -36,7 +36,7 @@ export default {
     },
     wrong () {
       this.$store.dispatch('wrongAnswer') // handled by vuex
-    }
-  }
+    },
+  },
 }
 </script>

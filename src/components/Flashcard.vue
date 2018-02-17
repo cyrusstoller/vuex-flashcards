@@ -16,7 +16,7 @@ export default {
     back: {
       type: String,
       default: 'default back',
-    }
-  }
+    },
+  },
 }
 </script>
