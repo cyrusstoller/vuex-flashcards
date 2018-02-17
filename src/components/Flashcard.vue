@@ -1,8 +1,15 @@
 <template>
   <div class="flashcard">
-    Front: {{ front }}
-    <br>
-    Back: {{ back }}
+    <div @click="flipCard" v-show="!isToggle">
+      <div class="card-content center">
+        <p>{{ front }}</p>
+      </div>
+    </div>
+    <div @click="flipCard" v-show="isToggle">
+      <div class="card-content center">
+        <p>{{ back }}</p>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -18,5 +25,24 @@ export default {
       default: 'default back',
     },
   },
+  computed: {
+    isToggle () {
+      return this.$store.state.cardFlipped // handled by vuex
+    },
+  },
+  methods: {
+    flipCard () {
+      this.$store.commit('flipCard') // handled by vuex
+    },
+  },
 }
 </script>
+
+<style>
+  .flashcard {
+    border: 1px black;
+    border-style: solid;
+    padding: 10px;
+    margin: 10px;
+  }
+</style>
