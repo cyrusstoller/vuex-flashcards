@@ -2,12 +2,17 @@ import Vue from 'vue'
 import Vuex from 'vuex'
 
 import App from './App.vue'
-import store from './store' // We still need to create this file
+import store from './store'
+import questions from './data/questions' // Manually loading the questions
 
 Vue.config.productionTip = false
 Vue.use(Vuex)
 
 new Vue({
   render: h => h(App),
-  store // this still hasn't been created
+  store,
+  mounted () { // Added functionality
+    this.$store.commit('setUnanswered', questions)
+    this.$store.dispatch('init')
+  }
 }).$mount('#app')
