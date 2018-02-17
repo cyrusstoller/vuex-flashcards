@@ -1,7 +1,12 @@
 <template>
   <div id="app">
     <div class="score">{{ score }}</div>
-    <flashcard :front="title" :back="answer"></flashcard>
+    <flashcard :front="question" :back="answer"></flashcard>
+
+    <div v-if="this.$store.state.cardFlipped">
+      <button @click="correct">Correct</button>
+      <button @click="wrong">Wrong</button>
+    </div>
   </div>
 </template>
 
@@ -11,11 +16,26 @@ export default {
   components: {
     flashcard,
   },
-  data() {
+  data () {
     return {
-      title: 'Sample question', // This will be removed later
-      answer: 'Sample answer', // This will be removed later
-      score: 0,
+      score: 0
+    }
+  },
+  computed: {
+    question () {
+      return this.$store.getters.currentQuestion // handled by vuex
+    },
+    answer () {
+      return this.$store.getters.currentAnswer // handled by vuex
+    }
+  },
+  methods: {
+    correct () {
+      this.$store.dispatch('correctAnswer') // handled by vuex
+      this.score++
+    },
+    wrong () {
+      this.$store.dispatch('wrongAnswer') // handled by vuex
     }
   }
 }

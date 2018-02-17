@@ -9,14 +9,14 @@ export default new Vuex.Store({
     unansweredQuestions: [], // Pool of questions to be shown to the user
     answeredQuestions: [], // Questions that have been correctly answered
     currentQuestion: {
-      title: 'Sample title',
+      question: 'Sample question',
       answer: 'Sample answer'
     }, // Will be overwritten immediately
     cardFlipped: false // Whether to show the question or answer
   },
   getters: {
-    currentTitle (state) {
-      return state.currentQuestion.title
+    currentQuestion (state) {
+      return state.currentQuestion.question
     },
     currentAnswer (state) {
       return state.currentQuestion.answer
