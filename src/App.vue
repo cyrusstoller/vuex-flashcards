@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import flashcard from './components/Flashcard'
+import flashcard from './components/Flashcard.vue'
 export default {
   components: {
     flashcard,
