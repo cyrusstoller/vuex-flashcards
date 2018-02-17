@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <div class="score">{{ score }}</div>
+    <div class="score">Score: {{ score }}</div>
     <flashcard :front="question" :back="answer"></flashcard>
 
     <div v-if="this.$store.state.cardFlipped">

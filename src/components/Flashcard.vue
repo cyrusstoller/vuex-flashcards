@@ -1,11 +1,11 @@
 <template>
-  <div class="flashcard">
-    <div @click="flipCard" v-show="!isToggle">
+  <div class="flashcard" @click="flipCard">
+    <div v-show="!isToggle">
       <div class="card-content center">
         <p>{{ front }}</p>
       </div>
     </div>
-    <div @click="flipCard" v-show="isToggle">
+    <div v-show="isToggle">
       <div class="card-content center">
         <p>{{ back }}</p>
       </div>
